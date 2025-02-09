@@ -2,20 +2,34 @@
 <html>
    <head>
        <title>Portfolio</title>
-       <h1>MUPENZI Shalom</h1>
+       
       
        <style>
         body{
-            background-color: white;
+            background-color: green;
         }
         header{
             text-align: right;
+            margin: 0px;
         }
   
         .navigation-bar{
-            color: #ffffff;
+            /*color: #ffffff;*/
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin: 0%;
+            background-color: red;
+            width: 100vw;
+            top: 0;
+            position: fixed;
+           
         }
         .navigation-bar ul li{
+           text-decoration: none;
+           top: 0;
+           justify-content: end;
+           border: 0px;
            display: inline;
         }
         .navigation-bar ul li a{
@@ -23,18 +37,29 @@
             color: #000;
             padding: 30px;
             font-size: 30px;
+            margin: 0px 30px;
+            top: 0;
+            justify-content: end;
+            display: inline;
+            text-decoration: none;
+            
         }
-        #about-section
+        #about-section{
+            align-items: center;
+        }
         
         
         .container{
             display: flex;
+            
             justify-content: center;
             text-align: center;
             height: 100vh;
+            margin: 120px;
+            justify-content: space-evenly;
         }
         .div-2 p{
-            color: gray;
+            color: black;
             padding: 0px 30px 0px 30px;
         }
         .div-2 button{
@@ -63,6 +88,7 @@
         .div-3{
             display: flex;
             padding: 10px 0px;
+            margin: 10px;
         }
         .content{
             display: flex;
@@ -75,7 +101,20 @@
             padding: 35px;
         }
         .footer-container{
+            justify-content: center;
+        }  
+        .footer-container ul li{
             display: inline;
+            
+        }
+        .footer-container ul li a{
+            justify-content: space-evenly;
+            text-decoration: none;
+        }
+        .experience-section{
+        }
+        .container{
+            align-items: center;
         }
         
        </style>
@@ -83,16 +122,17 @@
    <body>
       <header>
          <div class="navigation-bar">
-           
+           <h1>MUPENZI Shalom</h1>
               <nav>
+              
                  <ul>
-                    <li><a href="#about-section">About</a></li>
-                    <li><a href="#experience-section">Experience</a></li>
-                    <li><a href="#projects-section">Projects</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
+                    <li class="navigation-bar-only"><a href="#about-section">About</a></li>
+                    <li class="navigation-bar-only"><a href="#experience-section">Experience</a></li>
+                    <li class="navigation-bar-only"><a href="#projects-section">Projects</a></li>
+                    <li class="navigation-bar-only"><a href="#contact-section">Contact</a></li>
                  </ul>
               </nav>
-              <h1>MUPENZI Shalom</h1>
+             
          </div>
       </header>
        <section id="about-section">

@@ -112,13 +112,9 @@ header{
 .projects-section{
     text-align: justify;
 }
-@media screen(max-width: 1110px){
-    body{
-        padding: auto;
-        margin: 0;
-    }
-    header{
-        background-color: red;
-        margin: 0;
+@media (max-width: 780px){
+    .container{
+        display: flex;
+        flex-direction: column;
     }
 }
